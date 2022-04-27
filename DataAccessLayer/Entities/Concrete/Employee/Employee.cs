@@ -9,39 +9,40 @@ namespace DataAccessLayer.Entities.Concrete.Employee
     public class Employee
     {
         public int EmployeeId { get; set; }                      //Calisan id
-        public int EmployeeCompanyIdentityNo { get; set; }       //Sicil No
-        public string EmployeeCompanyStatus { get; set; }        //Pozisyonu
-        public DateTime EmployeeDateOfStart { get; set; }        //ise baslama tarihi
-        public string EmployeeDrivinLicenseClass { get; set; }   //Surucu belgesi sinifi B-E-G
-
-        public string EmployeeCompanySeniorityNo { get; set; }
-        public string EmployeeCompanyDegreeNo { get; set; }
-
-        public int EmployeeCitizenshipNo { get; set; }          // TC NO
-        public string EemployeeFirstName { get; set; }           //Ad
+        public string EmployeeFirstName { get; set; }           //Ad
         public string EmployeeLastName { get; set; }            //Soyad
-        public string EmployeeGender { get; set; }              //Cinsiyet
-        public DateTime EmployeeDateOfBirth { get; set; }       //Dogum tarihi
+        public int CompanyIdentityNo { get; set; }       //Sicil No
+        public string CompanyStatus { get; set; }        //Pozisyonu
+        public DateTime DateOfStart { get; set; }        //ise baslama tarihi
+        public string DrivinLicenseClass { get; set; }   //Surucu belgesi sinifi B-E-G
 
-        public string EmployeeAdress { get; set; }                          //Adres
-        public string EmployeeCity { get; set; }                            //il
-        public string EmployeeCounty { get; set; }                          //ilce
+        public string CompanySeniorityNo { get; set; }          //Kıdem
+        public string CompanyDegreeNo { get; set; }             //Derece
 
-        public string EmployeeemployeeBirthplace { get; set; }              //dogum yeri
-        public string EmployeeCityOfRegistration { get; set; }              //nufusa kayitli oldugu il
-        public string EmployeeCountyOfRegistration { get; set; }            //nufusa kayitli oldugu ilce
-        public string EmployeePhoneNumber { get; set; }                     //Telefon no
+        public int CitizenshipNo { get; set; }          // TC NO
+        public string Gender { get; set; }              //Cinsiyet
+        public DateTime DateOfBirth { get; set; }       //Dogum tarihi
 
-        public string EmployeeDescription { get; set; }                     //calisan tanimi
-        public string EmployeeComment { get; set; }                         //calisan aciklama
-        public int EmployeeDayOffNumber { get; set; }                       //kalan izin gunu sayisi
+        public string Adress { get; set; }                          //Adres
+        public string City { get; set; }                            //il
+        public string Town { get; set; }                            //ilce
+        public string County { get; set; }                          //ulke
 
-        public string EmployeeUnionName { get; set; }                       //Sendika adi
-        public string EmployeeUnionIdentityNo { get; set; }                 //Sendika kimlik no
-        public int EmployeeWage { get; set; }                               //Ucret yevmiye
+        public string Birthplace { get; set; }              //dogum yeri
+        public string CityOfRegistration { get; set; }              //nufusa kayitli oldugu il
+        public string CountyOfRegistration { get; set; }            //nufusa kayitli oldugu ilce
+        public string PhoneNumber { get; set; }                     //Telefon no
 
-        public int EmployeeMaritalStatus { get; set; }                      //Medeni durumu
-        public int EmployeeNumberOfChildren { get; set; }                   //Cocuk Sayisi
-        public int EmployeePartnerWorkingStatus { get; set; }               //Esinin calisma durumu
+        public string Description { get; set; }                     //calisan tanimi
+        public string Comment { get; set; }                         //calisan aciklama
+        public int DayOffNumber { get; set; }                       //kalan izin gunu sayisi
+
+        public string UnionName { get; set; }                       //Sendika adi
+        public string UnionIdentityNo { get; set; }                 //Sendika kimlik no
+        public int Wage { get; set; }                               //Ucret yevmiye
+
+        public int MaritalStatus { get; set; }                      //Medeni durumu
+        public int NumberOfChildren { get; set; }                   //Cocuk Sayisi
+        public int PartnerWorkingStatus { get; set; }               //Esinin calisma durumu
     }
 }

@@ -10,8 +10,8 @@ namespace DataAccessLayer.Entities.Concrete.Company
     {
         public int CompanyStatusId { get; set; }            //Kurum Pozisyon id
         public string CompanyStatusName { get; set; }       //Kurum Pozisyon Adi
-        public string CompanyStatusNo { get; set; }         //Kurum Pozisyon Kodu
-        public string CompanyDescription { get; set; }      //Kurum tanimi
-        public string CompanyComment { get; set; }          //Kurum aciklama
+        public string No { get; set; }                      //Kurum Pozisyon Kodu
+        public string Description { get; set; }             //Kurum tanimi
+        public string Comment { get; set; }                 //Kurum aciklama
     }
 }

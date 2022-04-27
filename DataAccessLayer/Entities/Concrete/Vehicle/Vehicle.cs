@@ -9,16 +9,17 @@ namespace DataAccessLayer.Entities.Concrete.Vehicle
     public class Vehicle
     {
         public int VehicleId { get; set; }                              //Arac id
-        public string VehicleCompanyIdentityNo { get; set; }            //Sirket kodu TCK NO
-        public string VehicleLicencePlate { get; set; }                 //Arac Plaka
-        public string VehicleBrand { get; set; }                        //Arac Marka 
-        public string VehicleModel { get; set; }                        //Arac Model
-        public string VehicleLastInspectionDate { get; set; }           //Arac son muayene tarihi
-        public DateTime VehicleDateOfStart { get; set; }                //Arac ise baslama tarihi
-        public string VehicleDescription { get; set; }                  //Arac tanimi
-        public string VehicleComment { get; set; }                      //Arac aciklama
-        public DateTime VehicleLastMaintenanceDate { get; set; }        //Son bakim tarihi
-        public DateTime VehicleNextMaintenanceDate { get; set; }        //Bir sonraki bakim tarihi
+        public string VehicleName { get; set; }            //Arac adi
+        public string CompanyIdentityNo { get; set; }            //Sirket kodu TCK NO
+        public string LicencePlate { get; set; }                 //Arac Plaka
+        public string Brand { get; set; }                        //Arac Marka 
+        public string Model { get; set; }                        //Arac Model
+        public string LastInspectionDate { get; set; }           //Arac son muayene tarihi
+        public DateTime DateOfStart { get; set; }                //Arac ise baslama tarihi
+        public string Description { get; set; }                  //Arac tanimi
+        public string Comment { get; set; }                      //Arac aciklama
+        public DateTime LastMaintenanceDate { get; set; }        //Son bakim tarihi
+        public DateTime NextMaintenanceDate { get; set; }        //Bir sonraki bakim tarihi
     }
 }
 

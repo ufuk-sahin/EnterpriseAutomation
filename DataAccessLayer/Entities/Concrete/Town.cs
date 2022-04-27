@@ -8,9 +8,9 @@ namespace DataAccessLayer.Entities.Concrete
 {
     public class Town
     {
-        public int CountyId { get; set; }               //kasaba id
-        public string CountyName { get; set; }          //kasaba adi
-        public int CountyPostCode { get; set; }         //kasaba posta kodu
+        public int TownId { get; set; }               //kasaba id
+        public string TownName { get; set; }          //kasaba adi
+        public int PostCode { get; set; }         //kasaba posta kodu
 
     }
 }

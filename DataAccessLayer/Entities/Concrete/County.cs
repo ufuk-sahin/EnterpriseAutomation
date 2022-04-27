@@ -10,7 +10,7 @@ namespace DataAccessLayer.Entities.Concrete
     {
         public int CountyId { get; set; }               //ulke id
         public string CountyName { get; set; }          //ulke adi
-        public int CountyPhoneCode { get; set; }        //ulke plaka kodu
-        public int CountyPostCode { get; set; }         //ulke posta kodu
+        public int PhoneCode { get; set; }        //ulke plaka kodu
+        public int PostCode { get; set; }         //ulke posta kodu
     }
 }

@@ -10,8 +10,8 @@ namespace DataAccessLayer.Entities.Concrete.Device
     {
         public int DeviceBrandId { get; set; }
         public string DeviceBrandName { get; set; }
-        public string DeviceBrandDescription { get; set; }
-        public string DeviceBrandComment { get; set; }
+        public string Description { get; set; }
+        public string Comment { get; set; }
 
     }
 }

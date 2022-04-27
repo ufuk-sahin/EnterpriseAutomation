@@ -10,7 +10,7 @@ namespace DataAccessLayer.Entities.Concrete.Device
     {
         public int DeviceModelId { get; set; }                  //Cihaz Model id
         public string DeviceModelName { get; set; }             //Cihaz Model adi
-        public string DeviceModelDescription { get; set; }      //Cihaz Model tanim
-        public string DeviceModelComment { get; set; }          //Cihaz Model aciklama
+        public string Description { get; set; }      //Cihaz Model tanim
+        public string Comment { get; set; }          //Cihaz Model aciklama
     }
 }
